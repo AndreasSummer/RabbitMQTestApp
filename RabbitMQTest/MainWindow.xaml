@@ -1,0 +1,15 @@
+﻿<Window x:Class="RabbitMQTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RabbitMQTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="408">
+    <Grid>
+        <TextBox x:Name="tf_Connection" Margin="10,61,10,0" TextWrapping="Wrap" Text="host=SRV-RabbitMQ;username=Username;password=Password" VerticalAlignment="Top"/>
+        <Button Content="Check connection" HorizontalAlignment="Left" Margin="268,110,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click" Height="34"/>
+        <TextBox x:Name="tf_Result" Margin="10,179,10,10" TextWrapping="Wrap" Text="TextBox"/>
+
+    </Grid>
+</Window>
